@@ -35,9 +35,9 @@ async def read_root():
 async def create_radio(input: list[TrackQuery]):
     weakhash = create_hash('Dark Shines', 'Muse')
     return RadioResponse(
-        albums=[],
-        artists=[],
-        tracks=[weakhash],
-        hits=[]
+        albums=[],  # Similar albums
+        artists=[],  # Similar artists
+        tracks=[weakhash],  # Similar tracks
+        hits=[]  # Direct hits for the tracks queries, unused in Swing
     )
 
