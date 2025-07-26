@@ -1,0 +1,3 @@
+highlevel:
+    compute: 1
+    svm_models: ['/essentia/svm/tonal_atonal.history', '/essentia/svm/mood_party.history', '/essentia/svm/genre_electronic.history', '/essentia/svm/danceability.history', '/essentia/svm/mood_relaxed.history', '/essentia/svm/mood_electronic.history', '/essentia/svm/genre_rosamerica.history', '/essentia/svm/mood_sad.history', '/essentia/svm/mood_happy.history', '/essentia/svm/moods_mirex.history', '/essentia/svm/gender.history', '/essentia/svm/voice_instrumental.history', '/essentia/svm/mood_aggressive.history', '/essentia/svm/timbre.history', '/essentia/svm/ismir04_rhythm.history', '/essentia/svm/genre_tzanetakis.history', '/essentia/svm/genre_dortmund.history', '/essentia/svm/mood_acoustic.history']
